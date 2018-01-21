@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 public class Res {
 
 	public static final JLabel MINE_ICON = new JLabel(loadImageIcon("res/mine.png"),JLabel.CENTER);
-	public static final JLabel EMPTY_LABEL = new JLabel("x");
+	public static final JLabel EMPTY_LABEL = new JLabel("");
 	
 	public static ImageIcon loadImageIcon(final String path) {
 		final Image image;
